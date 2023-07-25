@@ -6,7 +6,7 @@
 
 #container {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 25% 80%;
 }
 
 #navbar {
@@ -14,11 +14,27 @@
     flex-direction: column;
 }
 
-#navtitle {
+#nav-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 15px;
     margin-bottom: 15px;
     gap: 10px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list-item {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.nav-list-text {
+    font-size: 20px;
 }
