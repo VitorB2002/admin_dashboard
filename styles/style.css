@@ -1,17 +1,20 @@
 * {
-    margin: 0;
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
 }
 
 #container {
     display: flex;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 #navbar {
     display: flex;
     flex-direction: column;
     min-width: 250px;
+    background-color: #ced7d8;
 }
 
 #nav-title {
@@ -32,6 +35,7 @@
     display: flex;
     margin-left: 15px;
     margin-bottom: 15px;
+    align-items: center;
     gap: 15px;
 }
 
@@ -47,6 +51,7 @@
 
 #header {
     display: grid;
+    height: 15%;
     grid-template-columns: 65% 35%;
     margin: 28px 15px 15px 15px;
 }
@@ -54,6 +59,7 @@
 #header-search-box {
     display: flex;
     width: 90%;
+    height: 35px;
     border-radius: 15px;
 }
 
@@ -66,13 +72,15 @@
 
 #user-header-welcome {
     display: flex;
+    width: 100%;
     align-items: center;
     gap: 10px;
 }
 
 #header-form {
     display: flex;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: flex-start;
     align-items: center;
     gap: 15px;
 }
@@ -80,16 +88,21 @@
 .header-buttons {
     padding: 5px;
     margin: 5px;
-    width: auto;
-    height: 35px;
-    border: 2px solid grey;
+    width: 100px;
+    height: auto;
+    border: 2px solid #ced7d8;
     border-radius: 15px;
+    font-size: 15px;
+    background-color: #f47a60;
+    color: #fff;
 }
 
 #user-area {
     display: grid;
+    height: 85%;
     grid-template-columns: 70% 30%;
-    margin-left: 15px;
+    background-color: #316879;
+    padding: 15px;
 }
 
 #projects-container {
@@ -100,6 +113,7 @@
 #projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
+    margin-top: 15px;
     gap: 25px;
 }
 
@@ -107,13 +121,13 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
-    border: 1px solid grey;
+    border: 1px solid #ced7d8;
     border-radius: 5px;
-    margin-top: 15px;
     text-align: justify;
     max-width: 250px;
     font-size: 20px;
-    border-left: 8px solid blue;
+    background-color: #fff;
+    border-left: 8px solid #f47a60;
 }
 
 #announcement-container {
@@ -128,10 +142,11 @@
     flex-direction: column;
     font-size: 18px;
     margin-top: 15px;
-    border: 1px solid grey;
+    border: 2px solid #ced7d8;
     padding: 10px;
     border-radius: 15px;
     margin-bottom: 15px;
+    background-color: #fff;
 }
 
 .announcement-grid-item {
@@ -160,5 +175,5 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 2px solid grey;
+    border: 2px solid #ced7d8;
 }
