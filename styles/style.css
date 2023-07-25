@@ -6,7 +6,7 @@
 
 #container {
     display: grid;
-    grid-template-columns: 25% 80%;
+    grid-template-columns: 25% 75%;
 }
 
 #navbar {
@@ -54,4 +54,19 @@
     display: flex;
     width: 90%;
     border-radius: 15px;
+}
+
+#user-header-tools {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    gap: 15px;
+}
+
+.profile-img {
+    padding: 2px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid grey;
 }
