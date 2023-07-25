@@ -5,13 +5,13 @@
 }
 
 #container {
-    display: grid;
-    grid-template-columns: 25% 75%;
+    display: flex;
 }
 
 #navbar {
     display: flex;
     flex-direction: column;
+    min-width: 250px;
 }
 
 #nav-title {
@@ -42,6 +42,7 @@
 #content {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 #header {
@@ -83,6 +84,36 @@
     height: 35px;
     border: 2px solid grey;
     border-radius: 15px;
+}
+
+#user-area {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-left: 15px;
+}
+
+#projects-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
+    gap: 25px;
+}
+
+.project-grid-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: justify;
+    max-width: 250px;
+    font-size: 20px;
+    border-left: 8px solid blue;
 }
 
 #profile-principal-img {
