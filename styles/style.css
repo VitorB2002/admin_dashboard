@@ -116,6 +116,31 @@
     border-left: 8px solid blue;
 }
 
+#announcement-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#announcement-grid {
+    display: flex;
+    min-width: 100px;
+    max-width: 250px;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.announcement-grid-item {
+    text-align: justify;
+}
+
+#divider {
+    margin: 5px;
+}
+
 #profile-principal-img {
     height: 60px;
     width: 60px;
