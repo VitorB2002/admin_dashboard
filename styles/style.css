@@ -121,7 +121,7 @@
     flex-direction: column;
 }
 
-#announcement-grid {
+#announcement-grid, #trending-grid {
     display: flex;
     min-width: 100px;
     max-width: 250px;
@@ -131,10 +131,18 @@
     border: 1px solid grey;
     padding: 10px;
     border-radius: 15px;
+    margin-bottom: 15px;
 }
 
 .announcement-grid-item {
     text-align: justify;
+}
+
+.trending-projects {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    gap: 15px;
 }
 
 #divider {
