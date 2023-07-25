@@ -16,19 +16,19 @@
 
 #nav-title {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    gap: 10px;
+    margin: 15px;
+    gap: 15px;
 }
 
 .nav-list {
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
 }
 
-.nav-list-item {
+.nav-list-item, .header-search {
     display: flex;
     margin-left: 15px;
     margin-bottom: 15px;
@@ -37,4 +37,21 @@
 
 .nav-list-text {
     font-size: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 28px 15px 15px 15px;
+}
+
+#header-search-box {
+    display: flex;
+    width: 90%;
+    border-radius: 15px;
 }
