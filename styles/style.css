@@ -35,7 +35,7 @@
     gap: 15px;
 }
 
-.nav-list-text {
+.nav-list-text, .header-text {
     font-size: 20px;
 }
 
@@ -46,7 +46,7 @@
 
 #header {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 65% 35%;
     margin: 28px 15px 15px 15px;
 }
 
@@ -61,6 +61,34 @@
     align-items: center;
     margin-left: 15px;
     gap: 15px;
+}
+
+#user-header-welcome {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#header-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-buttons {
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: 35px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+#profile-principal-img {
+    height: 60px;
+    width: 60px;
+    padding: 0px;
 }
 
 .profile-img {
